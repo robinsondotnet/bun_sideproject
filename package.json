@@ -1,0 +1,10 @@
+{
+  "name": "bun-foo",
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "bun-types": "^1.0.2",
+    "fe-layout-manager": "workspace:*",
+    "vitest": "^0.34.4"
+  }
+}

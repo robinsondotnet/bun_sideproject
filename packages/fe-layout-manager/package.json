@@ -1,0 +1,16 @@
+{
+  "name": "fe-layout-manager",
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build": "nitropack build",
+    "preview": "node .output/server/index.mjs",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@unhead/ssr": "^1.7.4",
+    "nitropack": "latest",
+    "unhead": "^1.7.4"
+  }
+}
